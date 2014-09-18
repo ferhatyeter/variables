@@ -9,8 +9,8 @@ border = float(input("Please enter the border aroud the lawn you dont want to tu
 new_garden_length = garden_length - border
 new_garden_width = garden_width - border
 
-area = new_garded_length * new_garden_width
+area = new_garden_length * new_garden_width
 
 cost = area * 10
 
-print("the cost of new turf is: {0:.0f}.".format(cost))
+print("the cost of new turf is: £{0:.0f}.".format(cost))
